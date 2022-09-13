@@ -1,0 +1,27 @@
+[alias]
+	co = checkout
+	sw = switch
+	ci = commit
+	chp = cherry-pick
+	st = status
+	shw = show --pretty=fuller
+	br = branch -v --sort=-committerdate
+[core]
+	autocrlf = input
+[color]
+	ui = auto
+[push]
+	default = simple
+[merge]
+	conflictstyle = diff3
+[advice]
+	statusHints = false
+	detachedHead = false
+[grep]
+	lineNumber = true
+[format]
+	pretty = oneline
+[log]
+	abbrevCommit = true
+[pull]
+	ff = only
